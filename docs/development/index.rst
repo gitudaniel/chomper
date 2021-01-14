@@ -29,3 +29,15 @@ This function enacts new blocks. It does the following:
 2. Kill any currently running *mitmdump* or *mitmproxy* processes.
 3. Forward all outgoing HTTP/HTTPS traffic from ports 80/443 to port 8080.
 4. Start a *mitmdump* process listening on port 8080 as a daemon inside a detached *screen* process.
+
+
+########################
+Running the code locally
+########################
+
+1. Install pip
+    :code: `sudo apt install python3-pip`
+2. Pip install pipenv
+    :code:`pip3 install pipenv`
+3. Install project requirements using pipenv. This may take a while
+    :code:`pipenv install`
